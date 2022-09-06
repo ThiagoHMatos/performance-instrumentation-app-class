@@ -7,6 +7,6 @@ COPY package*.json ./
 
 RUN npm install
 
-COPY ./app/*.js ./
+COPY ./app2/*.js ./
 
 CMD [ "node", "index.js" ]
